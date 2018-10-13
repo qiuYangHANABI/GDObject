@@ -15,6 +15,7 @@
 		CE46370E20E612950008FACA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE46370D20E612950008FACA /* main.m */; };
 		CE46371820E612950008FACA /* GDTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE46371720E612950008FACA /* GDTestTests.m */; };
 		CE46372320E612960008FACA /* GDTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE46372220E612960008FACA /* GDTestUITests.m */; };
+		CE46373220E612CF0008FACA /* SingleObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CE46373120E612CF0008FACA /* SingleObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CE46371E20E612960008FACA /* GDTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GDTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE46372220E612960008FACA /* GDTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDTestUITests.m; sourceTree = "<group>"; };
 		CE46372420E612960008FACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE46373020E612CF0008FACA /* SingleObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingleObject.h; sourceTree = "<group>"; };
+		CE46373120E612CF0008FACA /* SingleObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingleObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				CE4636FF20E612950008FACA /* AppDelegate.m */,
 				CE46370120E612950008FACA /* ViewController.h */,
 				CE46370220E612950008FACA /* ViewController.m */,
+				CE46373020E612CF0008FACA /* SingleObject.h */,
+				CE46373120E612CF0008FACA /* SingleObject.m */,
 				CE46370420E612950008FACA /* Main.storyboard */,
 				CE46370720E612950008FACA /* Assets.xcassets */,
 				CE46370920E612950008FACA /* LaunchScreen.storyboard */,
@@ -267,6 +272,7 @@
 			files = (
 				CE46370320E612950008FACA /* ViewController.m in Sources */,
 				CE46370E20E612950008FACA /* main.m in Sources */,
+				CE46373220E612CF0008FACA /* SingleObject.m in Sources */,
 				CE46370020E612950008FACA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
